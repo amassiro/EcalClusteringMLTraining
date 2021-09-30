@@ -24,4 +24,11 @@ Run:
     python train.py
     
     
+In parallel on swan:
+
+    /user/amassiro/projects/GPUECAL
+    
+    CNN ECAL.ipynb
+    Development CNN.ipynb
+    
     
