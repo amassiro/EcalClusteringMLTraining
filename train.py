@@ -151,22 +151,26 @@ print ( "iphi = " , int(max(iphis) - min(iphis)), " --> ", max(iphis), "   ", mi
 print ( "ieta = " , int(max(ietas) - min(ietas)), " --> ", max(ietas), "   ", min(ietas) )
 
 
-event = 0
-color = np.zeros(( int(max(ietas) - min(ietas))+1, int(max(iphis) - min(iphis))+1 ))
+#
+# Super slow!!!!
+#
 
-counter = 0
-for i,j,k in zip(ietas, iphis, data_sim[event]):
-  if not (counter%1000) : print (counter, "   --->   ", i-int(min(ietas)) ,  "   ",  j-int(min(iphis)) )
-  color[int(i)-int(min(ietas))][int(j)-int(min(iphis))] = k
-  #print (counter)
-  counter = counter +1
+#event = 0
+#color = np.zeros(( int(max(ietas) - min(ietas))+1, int(max(iphis) - min(iphis))+1 ))
 
-plt.imshow(color)    
+#counter = 0
+#for i,j,k in zip(ietas, iphis, data_sim[event]):
+  #if not (counter%1000) : print (counter, "   --->   ", i-int(min(ietas)) ,  "   ",  j-int(min(iphis)) )
+  #color[int(i)-int(min(ietas))][int(j)-int(min(iphis))] = k
+  ##print (counter)
+  #counter = counter +1
 
-col = plt.colorbar()
-plt.xlabel("ieta")
-plt.ylabel("iphi")
-col.set_label("sim energy")
+#plt.imshow(color)    
+
+#col = plt.colorbar()
+#plt.xlabel("ieta")
+#plt.ylabel("iphi")
+#col.set_label("sim energy")
 
 
 
