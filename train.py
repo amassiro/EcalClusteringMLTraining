@@ -165,6 +165,7 @@ print ( "ieta = " , int(max(ietas) - min(ietas)), " --> ", max(ietas), "   ", mi
   ##print (counter)
   #counter = counter +1
 
+#import matplotlib.pyplot as plt
 #plt.imshow(color)    
 
 #col = plt.colorbar()
