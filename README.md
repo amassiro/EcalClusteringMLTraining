@@ -31,4 +31,35 @@ In parallel on swan:
     CNN ECAL.ipynb
     Development CNN.ipynb
     
+
+====
+
+Setup ssh on cerbero
+
+In local file:
+
+    .ssh/config
+    
+write:
+
+    Host cerbero
+        Hostname cerbero.mib.infn.it
+        User amassiro
+
+On cerbero write in file 
+
+    .ssh/authorized_keys
+    
+the public key from local
+
+
+
+gpu4hep01
+====
+
+On gpu4hep01
+
+    cd /gwpool/users/amassiro/
+
+    
     
