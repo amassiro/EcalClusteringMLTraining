@@ -32,9 +32,11 @@ In parallel on swan:
     Development CNN.ipynb
     
 
-====
 
 Setup ssh on cerbero
+====
+
+Instructions from here: https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server
 
 In local file:
 
