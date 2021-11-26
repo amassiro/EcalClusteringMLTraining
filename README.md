@@ -85,4 +85,11 @@ On gpu4hep01
 
     
     
+    
+    nvidia-smi
+
+    export CUDA_VISIBLE_DEVICES=0;
+
+    
+    
      
